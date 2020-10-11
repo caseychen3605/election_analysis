@@ -83,6 +83,7 @@ for candidate_name in candidate_votes:
         winning_candidate = candidate_name
     #To do: print out the winning candidate, vote count and percentage to terminal
     print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+
 winning_candidate_summary = (
     f'-------------------------\n'
     f'Winner: {winning_candidate}\n'
